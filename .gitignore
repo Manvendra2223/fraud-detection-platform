@@ -218,3 +218,21 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Data (badi files, GitHub par nahi jaati)
+data/raw/
+data/processed/
+*.csv
+
+# React / frontend
+node_modules/
+dist/
+build/
+
+# Saved models (badi ho sakti hain)
+*.pkl
+*.joblib
+
+# Editor aur OS
+.vscode/
+.DS_Store
